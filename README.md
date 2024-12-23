@@ -53,7 +53,6 @@ The following steps are performed as part of the solution:
 
 ### **Key Features**:
 - Automates the ETL process using Python.
-- Ensures data consistency by cleaning employee names.
 - Dynamically creates the required Snowflake table if it doesn't exist.
-- Leverages environment variables for secure handling of credentials and file paths.
+
 
