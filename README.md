@@ -41,7 +41,7 @@ The following steps are performed as part of the solution:
    The data is extracted from an Excel file specified in an environment variable (`EMPLOYEE_FILE_PATH`) that contains employee records in a sheet named 'Emp'.
 
 2. **Transform Data**:
-   After loading the data into a Pandas DataFrame, unnecessary columns are dropped, and the `Employee Name` column is cleaned to ensure consistency and readability.
+   After loading the data into a Pandas DataFrame, unnecessary columns are dropped, and the columns are cleaned to ensure consistency and readability.
 
 3. **Load Data**:
    The cleaned data is loaded into a Snowflake table named `Employees` in the specified schema and database. The code:
